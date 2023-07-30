@@ -88,11 +88,12 @@ include 'asset.php';
                                         <?php echo $data['waktu_masuk']; ?>
                                     </td>
                                     <td>
-                                        <a href="update.php?id=<?php echo $data['id']; ?>" class="btn btn-primary">Update</a>
+                                        <a href="update.php?id=<?php echo $data['id']; ?>"
+                                            class="btn btn-primary btn-sm">Update</a>
                                         <a href="checkout.php?id=<?php echo $data['id']; ?>"
-                                            class="btn btn-secondary">Checkout</a>
+                                            class="btn btn-success btn-sm">Checkout</a>
                                         <a href="./API/delete.php?id=<?php echo $data['id']; ?>"
-                                            class="btn btn-danger">Hapus</a>
+                                            class="btn btn-danger btn-sm">Hapus</a>
                                     </td>
                                 </tr>
                                 <?php
