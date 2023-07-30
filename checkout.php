@@ -37,8 +37,7 @@ include 'asset.php';
     $data = mysqli_fetch_array($query);
 
     date_default_timezone_set('Asia/Jakarta');
-    $stringKeWaktu = strtotime(date("Y-m-d H:i:s"));
-    $Waktu = date("Y-m-d H:i:s", $stringKeWaktu);
+    $Waktu = date("Y-m-d H:i:s");
 
     $tarifMobil = 10000;
     $tarifMotor = 5000;

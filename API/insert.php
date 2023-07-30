@@ -9,10 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Set tanggal waktu sekarang
     date_default_timezone_set('Asia/Jakarta');
-    // $tanggalHariIniString = date("d-M-Y H:i:s");
-    $tanggalHariIniString = date("Y-m-d H:i:s");
-    $stringKeWaktu = strtotime($tanggalHariIniString);
-    $Waktu = date("Y-m-d H:i:s", $stringKeWaktu);
+    $Waktu = date("Y-m-d H:i:s");
 
     $sql = "INSERT INTO daftar (karcis,plat,kendaraan,status,waktu_masuk) VALUES ('$karcis','$plat','$kendaraan','Aktif','$Waktu')";
 
