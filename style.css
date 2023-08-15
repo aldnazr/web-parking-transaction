@@ -2,29 +2,49 @@
     display: none;
 }
 
-.sidenav {
-    height: 100%;
-    width: 200px;
-    background-color: #111;
-    position: fixed;
-    padding-top: 20px;
-}
- 
-.sidenav a {
-    padding: 8px 0px 8px 20px;
-    text-decoration: none;
-    font-size: 21px;
-    color: #bababa;
-    display: block;
-    border-radius: 6px;
-}
-
-.sidenav a:hover{
-    color: #f1f1f1;
-    background-color: #0d6efd;
-}
-
 .main {
     margin-left: 200px;
 }
 
+.main1 {
+    margin-left: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sidenav {
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+    background-color: #111;
+    position: fixed;
+    padding-top: 25px;
+}
+
+.sidenav h4 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidenav a {
+    padding: 8px 0px 8px 24px;
+    margin: 0px 10px 0px 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    display: block;
+    border-radius: 0px 14px 14px 0px;
+}
+
+.sidenav i {
+    font-size: 18px;
+}
+
+.fa-solid {
+    width: 37px;
+}
+
+.sidenav a:hover {
+    color: white;
+    background-color: royalblue;
+}

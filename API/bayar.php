@@ -1,8 +1,8 @@
 <?php
 include '../koneksi.php';
 $id = $_POST['id'];
-$waktu_keluar = $_POST['waktu_keluar'];
 $total = $_POST['total'];
+$waktu_keluar = $_POST['waktu_keluar'];
 
 $sql = "INSERT INTO CHECKOUT (id_masuk,total) values ('$id','$total')";
 $update = "UPDATE DAFTAR SET STATUS = 'Lunas', WAKTU_KELUAR = '$waktu_keluar' WHERE ID = '$id'";
