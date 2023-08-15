@@ -13,7 +13,7 @@ include 'asset.php';
 <body>
     <div class="sidenav">
         <h4>Pencatatan<br>Parkir</h4>
-        <a href="index.php"><i class="fa-solid fa-house"></i>Home</a>
+        <a href="index.php" class="active"><i class="fa-solid fa-house"></i>Home</a>
         <a href=" riwayat.php"><i class="fa-solid fa-clock-rotate-left"></i>Riwayat</a>
     </div>
 

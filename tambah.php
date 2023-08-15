@@ -14,18 +14,18 @@ include 'asset.php';
         <div class="container-fluid">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link active" href="#">Tambah</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="riwayat.php">Riwayat</a>
+                    <button class="nav-link" onclick="goBack()"><i class="fa-solid fa-arrow-left"></i>Kembali</button>
                 </li>
             </ul>
         </div>
     </nav>
     <br>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 
     <!-- <div class="container-fluid">
         <a href="javascript:history back()" class="btn btn-primary">Kembali</a>
