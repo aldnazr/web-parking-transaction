@@ -2,7 +2,7 @@
 $servername = 'localhost';
 $username = 'root';
 $password = '';
-$database = 'db_uas';
+$database = 'db_stopandgo';
 
 $connect = new mysqli($servername, $username, $password, $database);
 
