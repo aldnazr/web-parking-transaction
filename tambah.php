@@ -1,11 +1,11 @@
-<?php
-include 'asset.php';
-?>
-
 <!DOCTYPE html>
 <html lang="id" data-bs-theme="dark">
 
 <head>
+    <?php
+    include 'asset.php';
+    ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah</title>
 </head>
 
